@@ -60,7 +60,13 @@ button{
 
 .container > button{
     margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
 }
+
+.container > button:hover{
+    opacity: 0.8;
+    transform:scale(1.1)
+    }
 
 .background-gradient{
     background: linear-gradient(190deg, #fff,#d9d9d9);
