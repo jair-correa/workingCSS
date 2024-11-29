@@ -11,7 +11,10 @@ body{
 
 #presentation-container {
     padding: 2.5rem 7.5rem;
-    height: 50vh;
+    height: 100vh;
+    background-image: url(/workingCSS/workingCSS/assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #presentation{
@@ -57,4 +60,8 @@ button{
 
 .container > button{
     margin-top: 2rem;
+}
+
+.background-gradient{
+    background: linear-gradient(190deg, #fff,#d9d9d9);
 }
