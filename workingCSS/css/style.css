@@ -15,12 +15,13 @@ body{
     background-image: url(/workingCSS/workingCSS/assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #presentation{
     width: 37.5vw;
-    position:relative;
-    top: calc(50% - 9rem);
 }
 
 h1{
