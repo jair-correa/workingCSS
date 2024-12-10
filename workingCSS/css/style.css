@@ -47,6 +47,11 @@ h2 {
   margin: 0px;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+}
 button {
   background-color: #f84646;
   color: white;
@@ -147,4 +152,18 @@ button {
 }
 .footer-copyright > div > img {
   margin-left: 0.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7.5rem;
+}
+
+.grid-item > h3 {
+  margin-top: 0.5rem;
+}
+
+.grid-item > p {
+  margin: 0.5rem 0 0;
 }
