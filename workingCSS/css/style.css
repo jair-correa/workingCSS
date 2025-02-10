@@ -172,6 +172,15 @@ button {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap:1.5rem;
+  margin-top: 3rem;
+}
+.grid-item-companies{
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
 }
 
 .company-1{
